@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>links colors</title>
+    <link rel="icon" type="image/x-icon" href="Screenshot/Favicon.png">
+</head>
+
+<body>
+    <center>
+        <h1>HTML Links - Different Colors</h1>
+    </center>
+    <a href="home.html">Back to Home</a>
+    <div style="text-align: right;"><a href="links bookmark.html">Go to Links bookmark</a></div>
+    <hr>
+    <hr>
+
+    <h2>HTML Link Colors</h2>
+    <p>By default, a link will appear like this (in all browsers):<br>
+
+        >An unvisited link is underlined and blue<br>
+        >A visited link is underlined and purple<br>
+        >An active link is underlined and red<br>
+        You can change the link state colors, by using CSS:</p>
+        <style>
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+    <hr>
+    <h2>Link Buttons</h2>
+    <p>A link can also be style as a button, by using CSS:</p>
+    <style>
+        a:link, a:visited {
+          background-color: #f44336;
+          color: white;
+          padding: 15px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        }
+        
+        a:hover, a:active {
+          background-color: red;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h2>Link Button</h2>
+        <p>A link styled as a button:</p>
+        <a href="default.asp" target="_blank">This is a link</a>
+        <hr>
+
+        
+</body>
+
+</html>

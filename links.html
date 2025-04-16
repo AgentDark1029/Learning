@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Links</title>
+    <link rel="icon" type="image/x-icon" href="Screenshot/Favicon.png">
+</head>
+
+<body>
+    <center>
+        <h1>Html Links</h1>
+    </center>
+    <a href="home.html">Back to Home</a>
+    <div style="text-align: right;"><a href="links colors.html">Go to Links colors</a></div>
+    <hr>
+    <hr>
+
+    <h2>HTML Links - Syntax</h2>
+    <p>The HTML <a> tag defines a hyperlink. It has the following syntax:</p>
+    &lt;a href="url"&gt;link text&lt;/a&gt;
+    <p>The most important attribute of the <a> element is the href attribute, which indicates the link's
+            destination.<br>
+
+            The link text is the part that will be visible to the reader.<br>
+
+            Clicking on the link text, will send the reader to the specified URL address.</p>
+    <p>This example shows how to create a link to W3Schools.com:</p>
+    <hr>
+
+    <h2>HTML Links - The target Attribute</h2>
+    <p>
+        By default, the linked page will be displayed in the current browser window. To change this, you must specify
+        another target for the link.<br>
+
+        The target attribute specifies where to open the linked document.<br>
+
+        The target attribute can have one of the following values:<br>
+
+        >_self - Default. Opens the document in the same window/tab as it was clicked<br>
+        >_blank - Opens the document in a new window or tab<br>
+        >_parent - Opens the document in the parent frame<br>
+        >_top - Opens the document in the full body of the window
+    </p>
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+    <hr>
+
+    <h2>Absolute URLs vs. Relative URLs</h2>
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.w3.org/" target="_blank">W3C</a></p>
+    <p><a href="https://www.google.com/" target="_blank">Google</a></p>
+
+    <h2>Relative URLs</h2>
+    <p><a href="html_images.asp">HTML Images</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
+    <hr>
+
+    <h2>HTML Links - Use an Image as a Link</h2>
+    <p>To use an image as a link, just put the &lt;img&gt; tag inside the &lt;a&gt; tag:</p>
+    <p>The image below is a link. Try to click on it.</p>
+
+    <a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+    <hr>
+
+    <h2>Link to an Email Address</h2>
+    <p>Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a
+        new email):</p>
+    <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the
+        href attribute:</p>
+
+    <p><a href="mailto:someone@example.com">Send email</a></p>
+    <hr>
+
+    <h2>Button as a Link</h2>
+    <p>To use an HTML button as a link, you have to add some JavaScript code.<br>
+    
+    JavaScript allows you to specify what happens at certain events, such as a click of a button:</p>
+    <p>Click the button to go to the HTML tutorial.</p>
+
+<button style="background-color: chartreuse;" onclick="document.location='default.asp'">HTML Tutorial</button>
+<hr>
+
+<h2>Link Titles</h2>
+<p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+<h2>Link Titles</h2>
+<p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+<hr>
+
+<h2>More on Absolute URLs and Relative URLs</h2>
+<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+
+</body>
+
+</html>
