@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome</title>
+    <link rel="icon" type="image/x-icon" href="Screenshot/Favicon.png">
+    <style>
+        .city {
+            background-color: tomato;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .main {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>The <span class="city">Class</span>attribute</h1>
+    </center>
+    <a href="home.html">Back to home</a>
+    <a href="id attribute.html" style="display: block; text-align: right;">Go to id attribute</a>
+    <hr>
+    <hr>
+
+    <div class="city">
+        <h2>London</h2>
+        <p>London is the capital of England.</p>
+    </div>
+
+    <div class="city">
+        <h2>Paris</h2>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div class="city">
+        <h2>Tokyo</h2>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <hr>
+
+    <h2>The class Attribute</h2>
+
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+    <hr>
+
+    <h2>Multiple Classes</h2>
+
+    <h2 class="city main">London</h2>
+    <h2 class="city">Paris</h2>
+    <h2 class="city">Tokyo</h2>
+    <hr>
+    <h2>Different Elements Can Share Same Class</h2>
+
+    <h2 class="city">Paris</h2>
+    <p class="city">Paris is the capital of France.</p>
+    <hr>
+
+    <h2>Use of The class Attribute in JavaScript</h2>
+
+    <button onclick="myFunction()">Hide elements</button>
+
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("city");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+    </script>
+
+
+</html>

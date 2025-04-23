@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Assignment 3</title>
+    <link rel="icon" type="image/x-icon" href="Screenshot/Favicon.png">
+    <style>
+        div.mycontainer {
+            width: 100%;
+            overflow: auto;
+        }
+
+        div.mycontainer div {
+            width: 33%;
+            float: left;
+        }
+    </style>
+</head>
+
+<body background="Screenshot/Screenshot 2025-04-11 222533.png">
+    <center>
+        <h1 style="color: white;">iframe exemple</h1>
+    </center>
+    <a href="home.html">Back to home</a>
+    <hr>
+    <hr>
+
+    <div class="mycontainer">
+        <div><iframe src="intro.html" name="iframe_a" height="500" width="300"></iframe>
+            <p><a href="intro.html" target="iframe_a">Introduction</a></p>
+        </div>
+        <div>
+            <iframe src="headings.html" name="iframe_b"></iframe>
+            <p><a href="headings.html" target="iframe_b">heading</a></p>
+        </div>
+    </div>
+    <hr>
+</body>
+
+</html>
